@@ -7,7 +7,6 @@
           p:hand-ref="ToshibaHand"
           p:leg-ref="SonyLeg"
           p:head-ref="SonyHead">
-
     </bean>
 
     <bean id="t10002" class="spring.impls.robot.ModelT1000"
