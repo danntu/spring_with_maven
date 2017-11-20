@@ -10,6 +10,10 @@ public class ModelT1000 implements Robot {
     private Leg leg;
     private Head head;
 
+    private String color;
+    private int year;
+    private boolean soundEnabled;
+
     public ModelT1000() {
     }
 
@@ -17,6 +21,21 @@ public class ModelT1000 implements Robot {
         this.hand = hand;
         this.leg = leg;
         this.head = head;
+    }
+
+    public ModelT1000(Hand hand, Leg leg, Head head, String color, int year, boolean soundEnabled) {
+        this.hand = hand;
+        this.leg = leg;
+        this.head = head;
+        this.color = color;
+        this.year = year;
+        this.soundEnabled = soundEnabled;
+    }
+
+    public ModelT1000(String color, int year, boolean soundEnabled) {
+        this.color = color;
+        this.year = year;
+        this.soundEnabled = soundEnabled;
     }
 
     public void setHand(Hand hand) {
@@ -43,10 +62,13 @@ public class ModelT1000 implements Robot {
         return head;
     }
 
-    public void fire() {
+    public void action() {
         head.calc();
         hand.catchSomething();
         leg.go();
+        System.out.println("color: "+color);
+        System.out.println("year: "+year);
+        System.out.println("can play sound: "+soundEnabled);
     }
 
     public void dance() {
