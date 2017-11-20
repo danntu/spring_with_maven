@@ -29,6 +29,7 @@
         <property name="leg" ref="ToshibaLeg"/>
     </bean>
 
+
     <bean id="SonyHand" class="spring.impls.sony.SonyHand"/>
     <bean id="SonyHead" class="spring.impls.sony.SonyHead"/>
     <bean id="SonyLeg" class="spring.impls.sony.SonyLeg"/>
