@@ -20,9 +20,9 @@
     </bean>
 
     <bean id="t10003" class="spring.impls.robot.ModelT1000">
-        <constructor-arg value="true" index="2" type="boolean"/>
         <constructor-arg value="silver" index="0" type="java.lang.String"/>
         <constructor-arg value="2006" index="1" type="int"/>
+        <constructor-arg value="true" index="2" type="boolean"/>
 
         <property name="hand" ref="ToshibaHand"/>
         <property name="head" ref="ToshibaHead"/>
