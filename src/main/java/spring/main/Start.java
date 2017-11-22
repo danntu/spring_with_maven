@@ -7,9 +7,10 @@ import spring.impls.robot.ModelT1000;
 public class Start {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
-        /*System.out.println("=============== Object1 =====================");
+        System.out.println("=============== Object1 =====================");
         System.out.println("=============== Singleton ===================");
         ModelT1000 t10001 = (ModelT1000)context.getBean("t10001");
+        /*
         System.out.println(t10001);
         t10001 = (ModelT1000)context.getBean("t10001");
         System.out.println(t10001);
