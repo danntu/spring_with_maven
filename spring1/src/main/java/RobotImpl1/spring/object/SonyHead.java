@@ -2,6 +2,6 @@ package RobotImpl1.spring.object;
 
 public class SonyHead {
     public void calc(){
-        System.out.println("Thinking...");
+        System.out.println("Думает...");
     }
 }

@@ -4,7 +4,7 @@ import RobotImpl1.spring.object.SonyHand;
 import RobotImpl1.spring.object.SonyHead;
 import RobotImpl1.spring.object.SonyLeg;
 
-public class Robot {
+class Robot {
     private SonyHead head = new SonyHead();
     private SonyHand hand = new SonyHand();
     private SonyLeg leg = new SonyLeg();
