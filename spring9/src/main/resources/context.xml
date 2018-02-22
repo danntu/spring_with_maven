@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="t1000" class="spring.impls.robot.ModelT1000">
+        <constructor-arg value="true" index="2" type="boolean"/>
+        <constructor-arg value="Red" index="0" type="java.lang.String"/>
+        <constructor-arg value="2018" index="1" type="int"/>
+
+        <property name="head" ref="toshibaHead"/>
+        <property name="hand" ref="toshibaHand"/>
+        <property name="leg" ref="sonyLeg"/>
+    </bean>
+
+    <bean id="t1000namespace" class="spring.impls.robot.ModelT1000"
+          p:hand-ref="toshibaHand" p:head-ref="toshibaHead" p:leg-ref="sonyLeg">
+        <constructor-arg value="true" index="2" type="boolean"/>
+        <constructor-arg value="Red" index="0" type="java.lang.String"/>
+        <constructor-arg value="2018" index="1" type="int"/>
+    </bean>
+
+    <bean id="toshibaLeg" class="spring.impls.toshiba.ToshibaLeg"/>
+    <bean id="toshibaHead" class="spring.impls.toshiba.ToshibaHead"/>
+    <bean id="toshibaHand" class="spring.impls.toshiba.ToshibaHand"/>
+
+    <bean id="sonyHead" class="spring.impls.sony.SonyHead"/>
+    <bean id="sonyHand" class="spring.impls.sony.SonyHand"/>
+    <bean id="sonyLeg" class="spring.impls.sony.SonyLeg"/>
+</beans>
