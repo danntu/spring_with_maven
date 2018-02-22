@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed206ffb-ee4b-4d12-9eb6-d2d0c3b51029" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="$PROJECT_DIR$/../.idea/.name" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jcl_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../spring_example_with_maven.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/impls/robot/ModelT1000.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/impls/sony/SonyHand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/impls/sony/SonyHead.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/impls/sony/SonyLeg.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/impls/toshiba/ToshibaHand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/impls/toshiba/ToshibaHead.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/impls/toshiba/ToshibaLeg.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/interfaces/Hand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/interfaces/Head.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/interfaces/Leg.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/interfaces/Robot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/main/MyBeanPostProcessor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/main/Start.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/objects/SonyHand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/objects/SonyHead.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/objects/SonyLeg.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/start/Robot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/start/RobotConstructor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/spring/start/RobotManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/all_context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/sony_context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/t1000_context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/toshiba_context.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyHand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyHead.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyLeg.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/start/Robot.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/start/RobotManager.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,17 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="RobotManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RobotImpl1/spring/start/RobotManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -74,6 +55,17 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyHead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyLeg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/start/Robot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RobotImpl1/spring/start/RobotManager.java" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -88,11 +80,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -108,6 +100,51 @@
             <path>
               <item name="spring1" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotImpl1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotImpl1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotImpl1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,15 +267,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519269331688</updated>
-      <workItem from="1519269333088" duration="159000" />
+      <workItem from="1519269333088" duration="1251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159000" />
+    <option name="totallyTimeSpent" value="1251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -252,7 +290,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CodeSearch" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -280,10 +318,61 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RobotImpl1/spring/object/SonyLeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RobotImpl1/spring/start/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RobotImpl1/spring/start/RobotManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
