@@ -7,23 +7,23 @@ default-lazy-init="true">
 
     <import resource="toshiba_context.xml"/>
     <import resource="sony_context.xml"/>
-
+    <import resource="db_context.xml"/>
 
     <bean id="t1000" class="spring.impls.robot.ModelT1000"
-          p:hand-ref="toshibaHand" p:head-ref="sonyHead" p:leg-ref="sonyLeg" scope="singleton">
-
-    </bean>
-
-    <bean id="t1000all" class="spring.impls.robot.ModelT1000" scope="prototype" lazy-init="true">
-        <!--init-method="initObject"-->
-        <!--destroy-method="destroyObject"-->
-
+          p:hand-ref="toshibaHand" p:head-ref="sonyHead" p:leg-ref="sonyLeg" depends-on="t1000all">
         <constructor-arg value="Red" index="0" type="java.lang.String"/>
         <constructor-arg value="2018" index="1" type="int"/>
         <constructor-arg value="true" index="2" type="boolean"/>
-        <property name="leg" ref="sonyLeg"/>
-        <property name="hand" ref="toshibaHand"/>
-        <property name="head" ref="sonyHead"/>
+    </bean>
+
+    <bean id="t1000all" class="spring.impls.robot.ModelT1000">
+        <!--init-method="initObject"-->
+        <!--destroy-method="destroyObject"-->
+
+
+        <constructor-arg ref="sonyHead"/>
+        <constructor-arg ref="sonyLeg"/>
+        <constructor-arg ref="sonyHand"/>
 
     </bean>
 </beans>

@@ -6,6 +6,6 @@ default-lazy-init="true">
 
     <bean id="toshibaLeg" class="spring.impls.toshiba.ToshibaLeg"/>
     <bean id="toshibaHead" class="spring.impls.toshiba.ToshibaHead"/>
-    <bean id="toshibaHand" class="spring.impls.toshiba.ToshibaHand" scope="singleton"/>
+    <bean id="toshibaHand" class="spring.impls.toshiba.ToshibaHand"/>
 
 </beans>

@@ -14,6 +14,8 @@ public class ModelT1000 implements Robot {
     private Leg leg;
     private Head head;
 
+
+
     public ModelT1000() {
         hand = new SonyHand();
         leg = new ToshibaLeg();
